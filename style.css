@@ -161,6 +161,8 @@ a{
   background-image: url(img/img-1.png);
   background-size: cover;
   margin: 10px 5%;
+  position: relative;
+  z-index: 1;
 }
 
 #services .service-item::after {
@@ -170,9 +172,15 @@ a{
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: linear-gradient(60deg, #2932c 0%, #485563 100%);
+  background-color: linear-gradient(60deg, #29323c 0%, #485563 100%);
   opacity: .8;
   z-index: -1;
+}
+
+.service .col-right .icon{
+  height: 80px;
+  width: 80px;
+  margin-bottom: 
 }
 /*End of Services Section*/
 
